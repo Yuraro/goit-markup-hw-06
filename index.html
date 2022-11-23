@@ -379,6 +379,13 @@
                         </li>
                     </ul>
                 </div>
+                <div class="footer-send">
+                    <h3 class="footer-left-title">Підпишіться на розсилку</h3>
+                    <form class="footer-downsend">
+                        <input type="email" name="mail" placeholder="E-mail" class="mail-footer">
+                        <button type="submit" class="btn-footer">Підписатись</button>
+                    </form>
+                </div>
             </address>
         </div>
     </footer>
@@ -390,6 +397,30 @@
                     <use href="./images/icons.svg#icon-close-back"></use>
                 </svg>
             </button>
+            <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+            <form class="js-speaker-form">
+                <label for="name" class="name">Ім'я</label>
+                <input type="text" name="name" id="name" class="name-box">
+
+                <label for="tel" class="tel">Телефон</label>
+                <input type="tel" name="tel" id="tel" class="tel-box">
+
+                <label for="email" class="email">Пошта</label>
+                <input type="email" name="email" id="email" class="email-box">
+
+                <label for="comment" class="comment">Коментар</label>
+                <textarea class="comment-box" name="comment" placeholder="Введіть текст" id="comment"></textarea>
+                
+            </form>
+                <form class="checkbox">
+                        <input type="checkbox" name="agree" value="agree" id="agree" class="agree-box" />
+                        <label for="agree" class="agree">Погоджуюся з розсилкою та приймаю 
+                            <a href="#" class="link-in-agree">Умови договору</a>
+                        </label>
+                </form>
+                <form class="btn-sudmit-box">
+                    <button type="submit" class="btn-sudmit">Відправити</button>
+                </form>
         </div>
     </div>
     

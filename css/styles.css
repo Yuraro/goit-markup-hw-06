@@ -267,6 +267,7 @@ background-image: linear-gradient(rgba(47, 48, 58, 0.4),
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border: none;
     cursor: pointer;
     display: block;
     margin: 0 auto;
@@ -607,6 +608,60 @@ fill: #FFFFFF;
     background-color: var(--blue-active-color);
 }
 
+.footer-send {
+    width: 570px;
+    height: 86px;
+    margin-left: 93px;
+}
+
+.footer-left-title {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.1428;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.footer-downsend {
+    display: flex;
+}
+
+.mail-footer {
+    width: 358px;
+    height: 50px;
+    background-color: transparent;
+    margin-right: 12px;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+}
+
+.btn-footer {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+
+    width: 200px;
+    height: 50px;
+
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
 /* ------------PORTFOLIO-------------- */
 
 .portfolio {
@@ -731,7 +786,8 @@ transform: translateY(-100%);
     color: var(--subtitle-color);
 }
 
-/* ------------PORTFOLIO-------------- */
+
+/* ------------MODAL-------------- */
 
 .backdrop{
     position: fixed;
@@ -791,4 +847,146 @@ transform: translateY(-100%);
 }
 
 .modal-close-icon {
+}
+
+.modal-title{
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+
+    margin-top: 10px;
+}
+
+.js-speaker-form {
+    width: 448px;
+    height: 342px;
+    margin-left: 40px;
+    margin-top: 12px;
+    display: flex;
+    gap: 4px;
+
+    flex-direction: column;
+}
+
+.name{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.6666;
+    letter-spacing: 0.01em;
+    color: #757575;
+}
+
+.name-box{
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    width: 448px;
+    height: 40px;
+    margin-bottom: 6px;
+}
+
+.tel {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.6666;
+    letter-spacing: 0.01em;
+    color: #757575;
+}
+
+.tel-box{
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    width: 448px;
+    height: 40px;
+    margin-bottom: 6px;
+}
+
+.email {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.6666;
+    letter-spacing: 0.01em;
+    color: #757575;
+}
+
+.email-box {
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    width: 448px;
+    height: 40px;
+    margin-bottom: 6px;
+}
+
+.comment {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.6666;
+    letter-spacing: 0.01em;
+    color: #757575;
+}
+
+.comment-box {
+    min-width: 448px;
+    min-height: 120px;
+
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    margin-bottom: 20px;
+    resize: none;
+}
+
+.checkbox{
+    width: 425px;
+    height: 24px;
+    flex-direction: row-reverse;
+    margin-bottom: 30px;
+    margin-left: 52px;
+}
+
+.agree {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7142;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.link-in-agree{
+    color: #2196F3;
+}
+
+.agree-box {
+    background-color: #212121;
+    width: 16px;
+    height: 15px;
+}
+
+.btn-sudmit-box {
+
+    margin-bottom: 40px;
+    margin-left: 164px;
+    margin-right: 164px;
+}
+
+.btn-sudmit {
+    min-width: 200px;
+    min-height: 50px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
 }
