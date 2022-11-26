@@ -929,6 +929,18 @@ transform: translateY(-100%);
     margin-bottom: 30px;
     margin-left: 52px;
     margin-top: 20px;
+    flex-direction: row-reverse;
+}
+
+.agree-box{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    position: absolute;
+
+    width: 16px;
+    height: 15px;
 }
 
 .agree {
@@ -939,14 +951,21 @@ transform: translateY(-100%);
     color: #757575;
 }
 
-.link-in-agree{
-    color: #2196F3;
-}
-
-.agree-box {
-    background-color: #212121;
+.checkbox-icon{
+    display: inline-block;
     width: 16px;
     height: 15px;
+    background-image:
+    url(../images/checkbox-off.svg);
+}
+
+.agree-box:checked + .checkbox-icon{
+    background-image:
+    url(../images/checkbox-on.svg);
+}
+
+.link-in-agree{
+    color: #2196F3;
 }
 
 .btn-sudmit-box {
