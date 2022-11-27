@@ -8,6 +8,7 @@
 --t-d: 250ms;
 --t-t-f: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 h1,
 h2,
 h3,
@@ -58,7 +59,7 @@ body{
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: 2px solid red;
+    
 }
 
 /* ------------HEADER-------------- */
@@ -895,6 +896,15 @@ transform: translateY(-100%);
     min-height: 40px;
     margin-bottom: 6px;
     padding-left: 35px;
+    outline: transparent;
+
+    transition-property: border-color;
+    transition-duration: var(--t-d);
+    transition-timing-function: var(--t-t-f);
+}
+
+.modal-upbox:focus{
+    border-color: var(--blue-active-color);
 }
 
 .modal-icon{
@@ -902,6 +912,14 @@ transform: translateY(-100%);
     left: 12px;
     top: 50%;
     transform: translateY(-60%);
+
+    transition-property: fill;
+    transition-duration: var(--t-d);
+    transition-timing-function: var(--t-t-f);
+}
+
+.modal-upbox:focus + .modal-icon{
+    fill: var(--blue-active-color);
 }
 
 .comment {
@@ -920,6 +938,16 @@ transform: translateY(-100%);
     border-radius: 4px;
     margin-bottom: 20px;
     resize: none;
+
+    outline: transparent;
+
+    transition-property: border-color;
+    transition-duration: var(--t-d);
+    transition-timing-function: var(--t-t-f);
+}
+
+.comment-box:focus{
+    border-color: var(--blue-active-color);
 }
 
 .checkbox{
